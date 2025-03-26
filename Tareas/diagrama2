@@ -1,0 +1,169 @@
+INICIO
+-declerar char[11]
+-Declarar op
+-Declarar todas las variables a utilizar poisteriormente
+-Imprimir en pantalla que desea hacer coordenadas o transformar a sistema ingles
+-Regreso
+-solicitar lo que quire el usuario
+-Switch op
+-En caso de elegir coordenadas 
+-ahora el programa pregunta de que tipo desea calcular cilindricas o esfericas
+-if en caso de cilindricas 
+denuevo1
+-imprime que el usuario asigne los valores a x,y,z
+-trabaja de la sig manera
+r1=sqrt((x*x)+(y*y));
+tta1= atan(y/x);
+z1= z;
+-imprime resultado
+regreso1
+-pregunta si desea hacer otra operacion si o no
+else if en caso de si 
+-regresa a denuevo1
+else if en caso de no 
+-finaliza el programa
+else en caso de otra cosa
+-imprime solo acepto si o no
+regresa a regreso1
+-if en caso de esfericas
+denuevo2
+-imprime que el usuario asigne los valores a x,y,z
+-trabaja de la sig manera
+r= sqrt((x*x)+(y*y)+(z*z));
+tta= atan(y/x);
+phi= acos(z/r);
+-imprime resultado
+regreso2
+-pregunta si desea hacer otra operacion si o no
+else if en caso de si 
+-regresa a denuevo2
+else if en caso de no 
+-finaliza el programa
+else en caso de otra cosa
+-imprime solo acepto si o no
+break
+regresa a regreso2
+denuevo3
+-En caso de haber elegido tranformacion de SI a sistema ingles
+-preguntar la medida que desea cambiar a sistema ingles long,masa,temp,velocidad
+-solicita al usuario la medida
+-if longitud
+caso de longitud
+l1
+-pregunta los metros que desea pasar a pies
+operacion
+ft=mtr * 3.281
+regreso3
+pregunta se desea hacer otra operacion si o no
+else if si 
+-regresa a l1 
+else if no 
+finaliza el programa
+else cualquier otra respuesta 
+solo acepto si o no 
+regresa a regreso3
+else en caso de no elegir ociones al comienzo
+solo acepto long,masa,temp o velocidad intente denuevo
+regresa a denuevo 3
+denuevo3
+//caso masa
+-solicita al usuario la medida
+-if masa
+caso de masa
+m1
+-pregunta los metros que desea pasar a libras
+operacion
+lb=ms * 2.205
+regreso4
+pregunta se desea hacer otra operacion si o no
+else if si 
+-regresa a m1
+else if no 
+finaliza el programa
+else cualquier otra respuesta 
+solo acepto si o no 
+regresa a regreso4
+else en caso de no elegir ociones al comienzo
+solo acepto long,masa,temp o velocidad intente denuevo
+regresa a denuevo3
+denuevo3
+//caso de temperatura
+-solicita al usuario la medida
+-if temp
+caso de temp
+t1
+-pregunta los metros que desea pasar a fahrenheit
+operacion
+F°= ( TC * 1.8) + 32
+-imprime el resultado
+regreso5
+pregunta se desea hacer otra operacion si o no
+else if si 
+-regresa a t1
+else if no 
+finaliza el programa
+else cualquier otra respuesta 
+solo acepto si o no 
+regresa a regreso5
+else en caso de no elegir ociones al comienzo
+solo acepto long,masa,temp o velocidad intente denuevo
+regresa a denuevo5
+denuevo3
+//en caso de velocidad
+-solicita al usuario la medida
+-if velocidad
+caso de velocidad
+v1
+-pregunta la velocidad para pasar a milla por hora
+operacion
+mh=v*0.62137
+-imprime resultado
+regreso6
+pregunta se desea hacer otra operacion si o no
+else if si 
+-regresa a v1
+else if no 
+finaliza el programa
+else cualquier otra respuesta 
+solo acepto si o no 
+regresa a regreso6
+else en caso de no elegir ociones al comienzo
+solo acepto long,masa,temp o velocidad intente denuevo
+regresa a denuevo 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
