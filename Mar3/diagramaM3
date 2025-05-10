@@ -1,0 +1,62 @@
+Leonardo Daniel Zavala Cuellar Diagrama de actividad Calculadora Marzo 3 2025
+INICIO
+-Declarar Tc,Tk,x,y,z;
+-Declarar r,tta,phi,r1,tta1,z1;
+-Declarar opc[2]; 
+-Declarar Temperatura y Coordenadas;
+REGRESO
+-Preguntar al usuario que desea calcular en este caso Coordendas o Temperatura
+-Crear if-else en caso de Temperatura
+RGRESOT 
+-Solicitar al usuario la temperatura que desea calcular
+-Leer Tc;
+Operaciones 
+Tk=Tc 273.15
+-imprimir la temperatura en Celcius y Kelvin
+denuevo
+-Preguntar si desea usar otra temperatura
+-Respuesta=si REGRESOT
+-Respuesta=no Gracias hasta la proxima
+-Respuesta dintinta denuevo
+-Crear un if-else en caso de coordenadas
+REGRESOC
+-Preguntar que tipo de coordenadas desea calcular
+REGRESOc
+En caso de cilindricas
+-Preguntar al usuario que valores asigna a x,y,z
+Operaciones 
+r1=rsqt((x*x)+(y*y)
+tta1= atan(y/x)
+z1= z
+imprimir resultados
+denuevoc
+-Preguntar si desea usar otras coordenadas
+-Respuesta=si REGRESOc
+-Respuesta=no Gracias hasta la proxima
+-Respuesta distinta denuevoc
+REGRESOe
+En caso de esfericas
+-Preguntar al usuario que valores asigna a x,y,z
+Operaciones 
+r=rsqt((x*x)+(y*y)+(z*z))
+tta1= atan(y/x)
+phi= acos(z/r)
+imprimir resultados
+denuevoe
+-Preguntar si desea usar otras coordenadas
+-Respuesta=si REGRESOe
+-Respuesta=no Gracias hasta la proxima
+-Respuesta distinta denuevoc
+error
+-Preguntar si desea hcaer otro calculo 
+-Respuesta =si REGRESO
+-Respuesta =no Hasta la proxima gracias 
+-Respuesta distinta regresar a error
+
+
+
+
+
+
+
+

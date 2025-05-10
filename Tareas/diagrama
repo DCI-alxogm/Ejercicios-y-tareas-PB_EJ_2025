@@ -1,0 +1,27 @@
+
+//PSEUDOCODIGO TAREA1 Leonardo Daniel Zavala Cuellar 19/02/2025
+
+INICIO
+-Se declaran a,b,c,d 
+-se declaran e1,e2,e3,e4(donde se registraran resultados)
+-Se le solicita a usuario asignar valor numerico a,b,c,d
+-Se asignan e1,e2,e3,e4 operaciones que trabajaran con a,b,c,d
+-imprime el resultado de las operaciones 
+FIN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
